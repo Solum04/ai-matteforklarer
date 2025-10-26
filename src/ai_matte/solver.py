@@ -38,7 +38,7 @@ class LocalLinearSolver:
         # steg 1: flytt konstanten
         rhs = c - b
         if b != 0:
-            steps.append(Step(f"Trekk {abs(b)} fra begge sider → {a}x = {rhs}"))
+            steps.append(Step(f"Trekk {abs(b)} fra begge sider -> {a}x = {rhs}"))
         else:
             steps.append(Step(f"Ingen konstant å flytte: {a}x = {c}"))
 
