@@ -1,4 +1,4 @@
-from ai_matte.tutor import MathTutor
+from ai_matte import MathTutor
 
 def main():
     tutor = MathTutor()
