@@ -1,0 +1,4 @@
+.venv/n__pycach__/
+*.pyc
+.env
+.env*
